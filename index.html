@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Євробачення 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="countries-list">
+        <input
+          type="text"
+          id="country-search"
+          placeholder="Введіть або оберіть країну..."
+          oninput="filterCountries()"
+          onclick="showDropdown()"
+        />
+        <div id="dropdown" class="dropdown"></div>
+      </aside>
+
+      <!-- <main class="content">
+        <iframe
+          id="video-frame"
+          src="https://www.youtube.com/embed/example_video"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <h2 id="singer-name">Виконавець:</h2>
+        <p id="song-info">Пісня:</p>
+        <p id="lyrics">Переклад:</p>
+      </main>
+       -->
+      <main class="content">
+        <div class="video-wrapper">
+          <iframe
+            id="video-frame"
+            src="https://www.youtube.com/embed/example_video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 id="singer-name">Виконавець:</h2>
+        <p id="song-info">Пісня:</p>
+        <p id="lyrics">Переклад:</p>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
