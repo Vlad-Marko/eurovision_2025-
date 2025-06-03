@@ -1,6 +1,6 @@
 const countryData = {
   "Grand final": {
-    flag: "/img/channels4_profile_40px.jpg",
+    flag: "./img/channels4_profile_40px.jpg",
 
     video: "https://www.youtube.com/embed/xPSn888JAFU?si=SOWlxS2EbgUBGkui",
     singer: "",
@@ -8,7 +8,7 @@ const countryData = {
     lyrics: "Переклад пісні тут...",
   },
   "First Semi-Final": {
-    flag: "/img/channels4_profile_40px.jpg",
+    flag: "./img/channels4_profile_40px.jpg",
 
     video: "https://www.youtube.com/embed/0HNXVB2UQwU?si=8jHoZMsY3vYYFrp9",
 
@@ -17,7 +17,7 @@ const countryData = {
     lyrics: "Переклад пісні тут...",
   },
   "Second Semi-Final": {
-    flag: "/img/channels4_profile_40px.jpg",
+    flag: "./img/channels4_profile_40px.jpg",
     video: "https://www.youtube.com/embed/AM9TxEJMyco?si=YjATy9JCDInTIc7B",
     singer: "",
     song: "",
